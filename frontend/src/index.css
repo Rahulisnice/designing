@@ -1,0 +1,95 @@
+@import "tailwindcss";
+
+@keyframes dragon-flight {
+  0% {
+    top: -500px;
+    left: -500px;
+    transform: scale(1) rotateY(0deg) rotate(0deg);
+  }
+  25% {
+    top: 30%;
+    left: 50%;
+    transform: scale(1.2) rotateY(0deg) rotate(10deg);
+  }
+  50% {
+    top: 70%;
+    left: 100%;
+    transform: scale(1) rotateY(0deg) rotate(-10deg); /* still facing right */
+  }
+  51% {
+    top: 70%;
+    left: 100%;
+    transform: scale(1) rotateY(180deg) rotate(-10deg); /* flip after going offscreen right */
+  }
+  75% {
+    top: 50%;
+    left: 50%;
+    transform: scale(1.2) rotateY(180deg) rotate(10deg);
+  }
+  100% {
+    top: -500px;
+    left: -500px;
+    transform: scale(1) rotateY(180deg) rotate(0deg); /* still flipped when offscreen left */
+  }
+}
+
+.animate-dragon {
+  animation: dragon-flight 18s ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes dragoni-flight {
+  0% {
+    top: -500px;
+    left: 150%; /* start off-screen right */
+    transform: scale(1) rotateY(180deg) rotate(0deg); /* face left at start */
+  }
+  25% {
+    top: 30%;
+    left: 50%;
+    transform: scale(1.2) rotateY(180deg) rotate(10deg); /* zoom and tilt while facing left */
+  }
+  50% {
+    top: 70%;
+    left: -500px; /* end off-screen left */
+    transform: scale(1) rotateY(180deg) rotate(-10deg); /* still facing left while moving left */
+  }
+  51% {
+    top: 70%;
+    left: -500px;
+    transform: scale(1) rotateY(0deg) rotate(-10deg); /* flip after leaving screen */
+  }
+  75% {
+    top: 50%;
+    left: 50%;
+    transform: scale(1.2) rotateY(0deg) rotate(10deg); /* zoom and tilt while facing right */
+  }
+  100% {
+    top: -500px;
+    left: 150%; /* reset off-screen right */
+    transform: scale(1) rotateY(180deg) rotate(0deg); /* reset facing left */
+  }
+}
+
+.animate-dragoni {
+  animation: dragoni-flight 15s ease-in-out infinite;
+  transform-origin: center;
+}
+
+/* 🔥 Glow Pulse */
+@keyframes glowPulse {
+  0% {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(168, 85, 247, 0.8),
+                0 0 60px rgba(168, 85, 247, 0.4);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+  }
+}
+.glow-pulse {
+  animation: glowPulse 2.5s infinite ease-in-out;
+}
+
