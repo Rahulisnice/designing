@@ -674,7 +674,7 @@ const ProjectsContent = () => {
       fullDescription:
         "It was created to challenge the conventional idea of a portfolio. It's built on the principle that your online presence should be as unique as your work. By integrating complex animations and a dynamic layout, the project demonstrates a high level of technical skill and an eye for creative design. The combination of professional elements like certifications and personal touches like the Shayari section offers a comprehensive and authentic view of the creator. This portfolio is a statement that you are not just a developer or a designer, but a visionary who understands how to captivate an audience and leave a lasting impression.",
       // link: "https://ecommerce-demo.example.com",
-      github: "https://github.com/example/ecommerce",
+      github: "https://github.com/Rahulisnice/designing",
       image: portfolio,
       techStack: ["toastify", "lucide", "framer-motion", "React", "Animation"],
       features: [
