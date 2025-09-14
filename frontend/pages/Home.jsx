@@ -15,11 +15,12 @@ import {
   Zap,
 } from "lucide-react";
 import { useEffect, useState, useRef } from "react";
-import IMG20241127165359 from "../src/assets/IMG20241127165359.jpg";
+import phoyo from "../src/assets/phoyo.jpeg";
 import bootcamp from "../src/assets/bootcamp.jpg";
 import webitup from "../src/assets/webitup.jpg";
 import react from "../src/assets/react.jpg";
 import Rahul from "../src/assets/Rahul.jpg";
+import resume from "../src/assets/resume.jpg";
 import Generatedgreenunscreen from "../src/assets/Generatedgreenunscreen.gif";
 import anotherdragon from "../src/assets/anotherdragon.gif";
 
@@ -557,7 +558,7 @@ const HomeContent = () => {
               <div className="w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 bg-gradient-to-br from-purple-600/20 to-pink-600/20 rounded-full flex items-center justify-center border-4 border-purple-500/30 backdrop-blur-sm mx-auto hover-3d">
                 <img
                   className="w-40 h-40 sm:w-48 sm:h-48 lg:w-56 lg:h-56 rounded-full object-cover"
-                  src={IMG20241127165359}
+                  src={phoyo}
                   alt="Profile"
                 />
               </div>
@@ -648,7 +649,7 @@ const HomeContent = () => {
               </p>
               <button
                 className="relative overflow-hidden  px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold flex items-center gap-2 sm:gap-3 mx-auto transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30 group text-sm sm:text-base text-white hover-3d shimmer"
-                onClick={() => window.open("#", "_blank")}
+                onClick={() => window.open(`${resume}`, "_blank")}
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-in-out"></div>
                 <Download
