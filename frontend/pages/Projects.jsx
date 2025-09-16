@@ -643,7 +643,7 @@ const ProjectsContent = () => {
       ],
       timeline: "1.5 months",
       team: "Solo Developer",
-      status: "On Deployment",
+      status: "Live",
     },
     {
       name: "Task Management Tool",
