@@ -598,7 +598,7 @@ const ProjectsContent = () => {
       description:
         "Quick-gpt is a powerful AI assistant designed to be your all-in-one creative and problem-solving partner. It combines advanced language processing with a robust image generation engine, allowing you to seamlessly move from text-based queries to high-quality visual creations.",
       fullDescription:
-        "CogniSphere's core mission is to democratize access to powerful AI tools. By integrating language and image generation into a single platform, we aim to eliminate the need for multiple subscriptions and fragmented workflows. The credit-based model is designed to be fair and transparent, rewarding users who engage with the platform and generate content. We are constantly improving our models based on user feedback to ensure the output is not only accurate but also highly creative and ethically sound.",
+        "Quick-gpt's core mission is to democratize access to powerful AI tools. By integrating language and image generation into a single platform, we aim to eliminate the need for multiple subscriptions and fragmented workflows. The credit-based model is designed to be fair and transparent, rewarding users who engage with the platform and generate content. We are constantly improving our models based on user feedback to ensure the output is not only accurate but also highly creative and ethically sound.",
       link: "https://chit-chat-frontend-zh5l.onrender.com",
       github: "https://github.com/Rahulisnice/Chit-Chat",
       image: chitchat,
