@@ -651,7 +651,7 @@ const ProjectsContent = () => {
         "Task-Handler is a streamlined to-do list application designed to help you organize and manage your daily tasks with ease. It provides a simple yet powerful interface where you can quickly add, edit, and track your tasks, ensuring you stay on top of your responsibilities.",
       fullDescription:
         "Task-Handler was built with the understanding that a to-do list should be a tool that simplifies your life, not complicates it. We focused on a clean, minimal design that puts the user in control. The core functionality is designed to be as fast and intuitive as possible, reducing the friction of managing tasks. Looking ahead, we plan to add features like reminders, due dates, and task prioritization to make Task-Handler an even more robust and indispensable part of your daily routine.",
-      link: "https://github.com/Rahulisnice/Task-Handler",
+      link: "https://task-handler-tz8n.onrender.com",
       github: "https://github.com/Rahulisnice/Task-Handler",
       image: taskhandler,
       techStack: ["Express", "React", "Tailwindcss", "MongoDB", "toastify"],
