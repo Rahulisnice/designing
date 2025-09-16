@@ -629,7 +629,7 @@ const ProjectsContent = () => {
         "Meal-Bridge is a web-based platform designed to simplify and streamline the food donation process. By creating a direct link between generous donors and verified charitable organizations, it ensures that surplus food and groceries reach those in need quickly and efficiently.",
       fullDescription:
         "This was built to combat food waste and food insecurity by creating a transparent and effective donation ecosystem. It addresses common pain points like logistical miscommunication and the difficulty of finding local charities that need specific types of donations. By providing separate interfaces and real-time communication, we aim to build trust and encourage repeat engagement from both donors and organizations. Our goal is to expand the network to include a wider variety of organizations, from small local shelters to large-scale food banks, making it the go-to platform for anyone who wants to make a difference in their community by donating food.",
-      link: "https://github.com/Rahulisnice/Food-donations",
+      link: "https://food-donations.vercel.app/",
       github: "https://github.com/Rahulisnice/Food-donations",
       image: mealbridge,
       techStack: ["Firebase", "Node.js", "EJS", "Express"],
