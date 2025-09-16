@@ -54,7 +54,7 @@ const HomeContent = () => {
   const projectsTimeline = [
     {
       year: "2025",
-      title: "Chit-Chat",
+      title: "Quick-gpt",
       description:
         "An AI assistant that generate Images, solve problem, and maintain community ",
       status: "Practice",

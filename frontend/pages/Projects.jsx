@@ -437,9 +437,9 @@ const ProjectDetailsModal = ({ project, onClose }) => {
             </div>
           </div>
 
-          {/* Actions */}
+          {/* Live demo */}
           <div className="flex flex-wrap gap-4 pt-4 border-t border-border">
-            {/* <a
+            <a
               href={project.link}
               target="_blank"
               rel="noopener noreferrer"
@@ -447,7 +447,7 @@ const ProjectDetailsModal = ({ project, onClose }) => {
             >
               <ExternalLink className="w-4 h-4" />
               View Live Demo
-            </a> */}
+            </a>
             <a
               href={project.github}
               target="_blank"
@@ -594,12 +594,12 @@ const ProjectsContent = () => {
 
   const projects = [
     {
-      name: "Chit-Chat",
+      name: "Quick-gpt",
       description:
-        "Chit-Chat is a powerful AI assistant designed to be your all-in-one creative and problem-solving partner. It combines advanced language processing with a robust image generation engine, allowing you to seamlessly move from text-based queries to high-quality visual creations.",
+        "Quick-gpt is a powerful AI assistant designed to be your all-in-one creative and problem-solving partner. It combines advanced language processing with a robust image generation engine, allowing you to seamlessly move from text-based queries to high-quality visual creations.",
       fullDescription:
         "CogniSphere's core mission is to democratize access to powerful AI tools. By integrating language and image generation into a single platform, we aim to eliminate the need for multiple subscriptions and fragmented workflows. The credit-based model is designed to be fair and transparent, rewarding users who engage with the platform and generate content. We are constantly improving our models based on user feedback to ensure the output is not only accurate but also highly creative and ethically sound.",
-      // link: "https://portfolio-demo.example.com",
+      link: "https://chit-chat-frontend-zh5l.onrender.com",
       github: "https://github.com/Rahulisnice/Chit-Chat",
       image: chitchat,
       techStack: [
@@ -621,7 +621,7 @@ const ProjectsContent = () => {
       ],
       timeline: "1 months",
       team: "Solo Developer",
-      status: "On Deployment",
+      status: "Live",
     },
     {
       name: "Meal-Bridge",
@@ -629,7 +629,7 @@ const ProjectsContent = () => {
         "Meal-Bridge is a web-based platform designed to simplify and streamline the food donation process. By creating a direct link between generous donors and verified charitable organizations, it ensures that surplus food and groceries reach those in need quickly and efficiently.",
       fullDescription:
         "This was built to combat food waste and food insecurity by creating a transparent and effective donation ecosystem. It addresses common pain points like logistical miscommunication and the difficulty of finding local charities that need specific types of donations. By providing separate interfaces and real-time communication, we aim to build trust and encourage repeat engagement from both donors and organizations. Our goal is to expand the network to include a wider variety of organizations, from small local shelters to large-scale food banks, making it the go-to platform for anyone who wants to make a difference in their community by donating food.",
-      // link: "https://chat-app-demo.example.com",
+      link: "https://github.com/Rahulisnice/Food-donations",
       github: "https://github.com/Rahulisnice/Food-donations",
       image: mealbridge,
       techStack: ["Firebase", "Node.js", "EJS", "Express"],
@@ -651,7 +651,7 @@ const ProjectsContent = () => {
         "Task-Handler is a streamlined to-do list application designed to help you organize and manage your daily tasks with ease. It provides a simple yet powerful interface where you can quickly add, edit, and track your tasks, ensuring you stay on top of your responsibilities.",
       fullDescription:
         "Task-Handler was built with the understanding that a to-do list should be a tool that simplifies your life, not complicates it. We focused on a clean, minimal design that puts the user in control. The core functionality is designed to be as fast and intuitive as possible, reducing the friction of managing tasks. Looking ahead, we plan to add features like reminders, due dates, and task prioritization to make Task-Handler an even more robust and indispensable part of your daily routine.",
-      // link: "https://task-manager-demo.example.com",
+      link: "https://github.com/Rahulisnice/Task-Handler",
       github: "https://github.com/Rahulisnice/Task-Handler",
       image: taskhandler,
       techStack: ["Express", "React", "Tailwindcss", "MongoDB", "toastify"],
@@ -673,7 +673,7 @@ const ProjectsContent = () => {
         "It is a cutting-edge, modern portfolio that goes beyond static design to create an immersive and dynamic user experience. It blends professional achievements with creative flair, featuring stunning animations and a unique, responsive layout that captivates visitors.",
       fullDescription:
         "It was created to challenge the conventional idea of a portfolio. It's built on the principle that your online presence should be as unique as your work. By integrating complex animations and a dynamic layout, the project demonstrates a high level of technical skill and an eye for creative design. The combination of professional elements like certifications and personal touches like the Shayari section offers a comprehensive and authentic view of the creator. This portfolio is a statement that you are not just a developer or a designer, but a visionary who understands how to captivate an audience and leave a lasting impression.",
-      // link: "https://ecommerce-demo.example.com",
+      link: "https://portfolio-roan-one-21.vercel.app/",
       github: "https://github.com/Rahulisnice/designing",
       image: portfolio,
       techStack: ["toastify", "lucide", "framer-motion", "React", "Animation"],
