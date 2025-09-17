@@ -646,7 +646,7 @@ const ProjectsContent = () => {
       status: "Live",
     },
     {
-      name: "Task Management Tool",
+      name: "Task Handler",
       description:
         "Task-Handler is a streamlined to-do list application designed to help you organize and manage your daily tasks with ease. It provides a simple yet powerful interface where you can quickly add, edit, and track your tasks, ensuring you stay on top of your responsibilities.",
       fullDescription:
