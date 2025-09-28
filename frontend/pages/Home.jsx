@@ -32,13 +32,16 @@ const HomeContent = () => {
     "Node.js",
     "Javascript",
     "Express",
-    "Next.js",
+    "Cloudinary",
+    "Multer",
     "Tailwind CSS",
     "HTML",
     "Bcrypt",
     "CSS",
     "Git",
     "EJS",
+    "OpenAI",
+    "Image Kit",
     "GitHub",
     "Stripe",
     "Bootstrap",
@@ -54,11 +57,19 @@ const HomeContent = () => {
   const projectsTimeline = [
     {
       year: "2025",
+      title: "Bheema",
+      description:
+        "Bheem is an AI-powered virtual Agent that listens, understands, and responds to your voice commands in real time.",
+      status: "Practice",
+      tech: ["React", "Node.js", "MongoDB", "Cloudinary", "OpenAI"],
+    },
+    {
+      year: "2025",
       title: "Quick-gpt",
       description:
         "An AI assistant that generate Images, solve problem, and maintain community ",
       status: "Practice",
-      tech: ["React", "Node.js", "MongoDB", "Stripe", "Express"],
+      tech: ["React", "Node.js", "MongoDB", "Stripe", "OpenAI"],
     },
     {
       year: "2025",

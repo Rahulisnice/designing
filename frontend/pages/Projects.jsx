@@ -14,6 +14,7 @@ import portfolio from "../src/assets/portfolio.png";
 import chitchat from "../src/assets/chitchat.png";
 import mealbridge from "../src/assets/mealbridge.png";
 import taskhandler from "../src/assets/taskhandler.png";
+import Bheema from "../src/assets/Bheema.png";
 
 // Inline styles for standalone usage
 const projectStyles = `
@@ -593,6 +594,36 @@ const ProjectsContent = () => {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
+    {
+      name: "Bheema",
+      description:
+        "Bheem is an AI-powered virtual assistant that listens, understands, and responds to your voice commands in real time. With full customization options, users can personalize their assistant's name, voice, and avatar, making Bheem not just a tool but a personal digital companion.",
+      fullDescription:
+        "Bheema is an interactive virtual assistant that combines AI intelligence with voice recognition to make everyday tasks simpler and faster. It can listen to your commands, respond with natural speech, and instantly perform actions like opening apps, searching the web, or playing videos on YouTube. With full customization options, users can personalize their assistant’+'s name, voice, and avatar, making Bheema not just a tool but a personal digital companion.",
+      link: "https://ai-virtual-agent-frontend.onrender.com",
+      github: "https://github.com/Rahulisnice/AI-Virtual-Assistant",
+      image: Bheema,
+      techStack: [
+        "Cloudinary",
+        "Node.js",
+        "Multer",
+        "Tailwind CSS",
+        "Mongodb",
+        "openai",
+        "React",
+      ],
+      features: [
+        "Assistant Customization",
+        "Speech Recognition",
+        "Advanced Coding Assistance",
+        "Smart Action Handling",
+        "Voice-based Search",
+        "Play on YouTube",
+      ],
+      timeline: "1 months",
+      team: "Solo Developer",
+      status: "Live",
+    },
     {
       name: "Quick-gpt",
       description:
