@@ -20,7 +20,7 @@ import bootcamp from "../src/assets/bootcamp.jpg";
 import webitup from "../src/assets/webitup.jpg";
 import react from "../src/assets/react.jpg";
 import Rahul from "../src/assets/Rahul.jpg";
-import resume from "../src/assets/resume.jpg";
+import RahulResume from "../src/assets/RahulResume.pdf";
 import Generatedgreenunscreen from "../src/assets/Generatedgreenunscreen.gif";
 import anotherdragon from "../src/assets/anotherdragon.gif";
 
@@ -527,13 +527,13 @@ const HomeContent = () => {
           </p>
           <div className="mt-8 flex gap-6">
             <a
-              href="https://www.linkedin.com/in/rahul-yadav-564199260/"
+              href="https://github.com/Rahulisnice"
               className="hover:text-purple-400 transition-all duration-300 hover:scale-125 hover-3d"
             >
               <Github size={32} className="heartbeat" />
             </a>
             <a
-              href="https://github.com/Rahulisnice"
+              href="https://www.linkedin.com/in/rahul-yadav-564199260/"
               className="hover:text-purple-400 transition-all duration-300 hover:scale-125 hover-3d"
             >
               <Linkedin size={32} className="heartbeat" />
@@ -660,7 +660,7 @@ const HomeContent = () => {
               </p>
               <button
                 className="relative overflow-hidden  px-6 sm:px-8 py-3 sm:py-4 rounded-full font-semibold flex items-center gap-2 sm:gap-3 mx-auto transition-all duration-300 hover:scale-105 hover:shadow-lg hover:shadow-purple-500/30 group text-sm sm:text-base text-white hover-3d shimmer"
-                onClick={() => window.open(`${resume}`, "_blank")}
+                onClick={() => window.open(`${RahulResume}`, "_blank")}
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-400 transform -translate-x-full group-hover:translate-x-0 transition-transform duration-700 ease-in-out"></div>
                 <Download
